@@ -1,0 +1,20 @@
+name: EnderchestDisabled
+version: 0.0
+description: Disables Enderchest crafting for everyone and opening for players without permission
+api-version: 1.15
+load: POSTWORLD
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.EnderchestDisabled.EnderchestDisabledPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: []
+
+permissions:
+  enderchestdisabled.bypass:
+    decription: Allows use of enderchests
+    defalut: false
